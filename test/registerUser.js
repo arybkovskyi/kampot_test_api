@@ -18,10 +18,10 @@ const request = supertest(BASE_URL);
     before(async() => {
 
         let newUser = {
-            "email": "guzel123@mail.com",
+            "email": "alex.rybkovsky@gmail.com",
             "password": "123123",
-            "firstName": "guzel",
-            "lastName": "N",
+            "firstName": "Alex",
+            "lastName": "Rybossky",
             "phone": "123456789"
         };
 
@@ -52,10 +52,10 @@ const request = supertest(BASE_URL);
     before(async() => {
 
         let existingUser = {
-            "email": "guzel@aol.com",
+            "email": "alex.rybkovsky@gmail.com",
             "password": "123123",
-            "firstName": "Ella",
-            "lastName": "N",
+            "firstName": "Alex",
+            "lastName": "Rybossky",
             "phone": "123456789"
         };
 

@@ -17,7 +17,7 @@ const request = supertest(BASE_URL);
     before(async() => {
 
         let loginCred = {
-            "email": "guzel@aol.com",
+            "email": "alex.rybkovsky@gmail.com",
             "password": "123123",
         };
 
